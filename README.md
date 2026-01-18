@@ -33,7 +33,9 @@ php bin/console doctrine:migrations:migrate
 php bin/console doctrine:fixtures:load
 ```
 
-(Siga los pasos del ayudante) 7. Iniciar el servidor: `symfony server:start`
+(Siga los pasos del ayudante) 
+
+7. Iniciar el servidor: `symfony server:start --allow-all-ip`
 
 ## 4. Cómo correr el Frontend Web (book_frontend)
 
