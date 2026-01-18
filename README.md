@@ -148,8 +148,8 @@ Para escalar esta aplicación a cientos de miles de libros y usuarios, implement
 * Procesaría el cálculo de estadísticas complejas asíncronamente
 
 ## 10. Evidencia de video
-xxxxxxxx
+https://drive.google.com/file/d/1Uwp6h6i04lpz8dCoAJWTWdUDp3bHy12P/view?usp=drive_link
 
 ## 11. Información de Entrega
 * Branch evaluado: **main**
-* Commit final: [Hash del último commit]
+* Commit de la última versión estable: [bb19581362cb83a488cf428c72e66cfff4ba0e7e]

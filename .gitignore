@@ -1,0 +1,56 @@
+# ==========================================
+# REGLAS GLOBALES (Aplican a todo el proyecto)
+# ==========================================
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+
+# Bloquear variables de entorno EXCEPTO book_api/.env
+.env
+.env.local
+.env.*.local
+.env.test
+.env.test.local
+.env.dev
+
+# Excepciones: Permitir .env de book_api
+!book_api/.env
+!book_api/.env.local
+
+# Archivos multimedia/documentos raíz
+*.pdf
+
+# ==========================================
+# BACKEND (Symfony)
+# ==========================================
+book_api/vendor/
+book_api/var/
+book_api/public/bundles/
+book_api/config/secrets/dev/dev.decrypt.private.php
+
+# ==========================================
+# FRONTEND (Vue.js)
+# ==========================================
+book_frontend/dist/
+book_frontend/.env
+book_frontend/.env.local
+book_frontend/.env.*.local
+
+# ==========================================
+# MOBILE (Expo / React Native)
+# ==========================================
+book_mobile/.expo/
+book_mobile/dist/
+book_mobile/web-build/
+book_mobile/.env
+book_mobile/.env.local
+book_mobile/.env.*.local
+
+# ==========================================
+# DOCKER & DB
+# ==========================================
+.database/
+**/Dockerfile
