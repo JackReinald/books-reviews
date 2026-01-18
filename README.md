@@ -42,7 +42,7 @@ php bin/console doctrine:fixtures:load
 3. Ejecutar en desarrollo: `npm run dev`
 4. Acceso: Abrir el navegador en `http://localhost:5173`
 
-## 5. Cómo correr el Frontend Mobile (book_mobile)
+## 5. Cómo correr el Frontend Mobile  (book_mobile)
 
 1. Entrar al directorio book_mobile
 2. Instalar dependencias: `npm install`
@@ -145,7 +145,7 @@ Para escalar esta aplicación a cientos de miles de libros y usuarios, implement
 * Arquitectura de Microservicios: Separaría el motor de reseñas en un servicio independiente para que el tráfico masivo de votos no afecte la navegación de libros.
 * Procesaría el cálculo de estadísticas complejas asíncronamente
 
-## 10. Video Evidencia
+## 10. Evidencia de video
 xxxxxxxx
 
 ## 11. Información de Entrega
